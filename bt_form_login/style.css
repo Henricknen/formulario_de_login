@@ -1,14 +1,37 @@
 body {
-    background-color: grey;
+    background-color: lightgray;
     display: flex;
     justify-content: center;      /* display, justify-content e align-items com essas formatações faz o conteudo todo ficar no centro da tela */
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+}
+
+.h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .area {
     width: 100%;        /* largura */
     max-width: 350px;        /* largura maxima */
-    height: 300px;
-    background-color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {     /* deixa a imagem responsiva */
+    width: 100%;
+    height: auto;
+}
+
+.remember {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gray {
+    color: gray;
+}
+
+.padding {
+    padding: 10px;
 }
