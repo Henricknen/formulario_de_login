@@ -1,0 +1,14 @@
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;      /* display, justify-content e align-items com essas formatações faz o conteudo todo ficar no centro da tela */
+    align-items: center;
+    height: 100vh;
+}
+
+.area {
+    width: 100%;        /* largura */
+    max-width: 350px;        /* largura maxima */
+    height: 300px;
+    background-color: red;
+}
